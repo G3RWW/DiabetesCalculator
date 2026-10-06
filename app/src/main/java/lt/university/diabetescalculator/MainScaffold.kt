@@ -61,7 +61,7 @@ fun MainScaffold(windowSizeClass: WindowSizeClass) {
     val compact = isCompactWidth(windowSizeClass.widthSizeClass)
 
     Scaffold(
-        topBar = { AppTopBar(currentScreenTitle = current.label) },
+        topBar = { AppTopBar(currentScreenTitle = current.label, screenIndex = current.ordinal) },
         bottomBar = {
             if (compact) BottomNavBar(current = current, onSelect = ::navigateTo)
         },

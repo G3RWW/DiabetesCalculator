@@ -41,11 +41,16 @@ Top App Bar meniu punktą **"Autorius"**.
   `Card`/`ElevatedCard`, `AssistChip`, `FilterChip`, `LinearProgressIndicator`,
   `LazyColumn`, `LazyVerticalGrid`, `Switch`, `Checkbox`, `Snackbar`,
   `TopAppBar`, `NavigationBar`, `NavigationRail`, `AlertDialog`,
-  `IconButton`, `Divider`. Kiekvienas elementas susietas su ViewModel
+  `IconButton`, `HorizontalDivider`. Kiekvienas elementas susietas su ViewModel
   būsena arba funkcija — nė vienas nėra vien dekoratyvus.
-- **Estetika ir išdėstymas** — vieninga Material 3 tema (`ui/theme`),
-  suderinta spalvų paletė, nuoseklūs tarpai (`Arrangement.spacedBy`),
-  spalvomis koduojami būsenos ženkleliai (žalia/geltona/oranžinė/raudona).
+- **Estetika ir išdėstymas** — savita "užrašų knygutės" Material 3 tema
+  (`ui/theme`): šiltas popieriaus fonas, tamsus rašalas ir persimonų spalvos
+  akcentas (dinaminės Android spalvos sąmoningai išjungtos), serif antraštės
+  ir monospace skaičiai, asimetriški "lapelio" kampai. Skaičiuoklėje dozė
+  rodoma viršuje tamsiame "prietaiso ekrane" su maisto/korekcijos santykio
+  juosta ir spalvotomis gliukozės zonomis; istorija — laiko juosta su
+  suvestine; Info — sunumeruotos įvairiaspalvės kortelės. Būsenos visada
+  koduojamos ir spalva, ir tekstu.
 - **Keli ekranai + pilna navigacija** — `navigation-compose` su trimis
   ekranais (Skaičiuoklė / Istorija / Info), bendra `NavHost`, apačios
   juosta arba šoninis skydelis priklausomai nuo ekrano dydžio.
