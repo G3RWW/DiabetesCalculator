@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Diabeto Skaičiuoklė</string>
+
+    <!-- TODO: pakeiskite šias dvi eilutes savo tikrais duomenimis prieš atiduodami darbą -->
+    <string name="author_name">Autorius: Dovydas Gencevičius</string>
+    <string name="author_group">Grupė: MKDF23/3</string>
+</resources>
